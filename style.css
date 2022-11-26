@@ -102,7 +102,7 @@ body {
     height: 393px;
     background-size: contain;
     border-radius: 10px;
-    background-image: url(/images/ArchitectureJour.png);
+    background-image: url(/images/architecturejour.png);
     transition: 0.4s ease-in-out;
 }
 
@@ -113,7 +113,7 @@ body {
     height: 393px;
     background-size: contain;
     border-radius: 10px;
-    background-image: url(/images/Fantasy.png);
+    background-image: url(/images/fantasy.png);
     animation: 5s Showcase infinite alternate ease-in-out;
 }
 
@@ -123,35 +123,35 @@ body {
 
 @keyframes Showcase {
     0% {
-        background-image: url(/images/Fantasy.png);
+        background-image: url(/images/fantasy.png);
     }
 
     15% {
-        background-image: url(/images/Fantasy.png);
+        background-image: url(/images/fantasy.png);
     }
 
     30% {
-        background-image: url(/images/Scene.png);
+        background-image: url(/images/scene.png);
     }
 
     45% {
-        background-image: url(/images/Scene.png);
+        background-image: url(/images/scene.png);
     }
 
     60% {
-        background-image: url(/images/Rendu.png);
+        background-image: url(/images/rendu.png);
     }
 
     75% {
-        background-image: url(/images/Rendu.png);
+        background-image: url(/images/rendu.png);
     }
 
     90% {
-        background-image: url(/images/Fantasy.png);
+        background-image: url(/images/fantasy.png);
     }
 
     100% {
-        background-image: url(/images/Fantasy.png);
+        background-image: url(/images/fantasy.png);
     }
 }
 
@@ -290,7 +290,7 @@ h1 {
 .imgCrea1 {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: url(/images/Recto.png) ;
+    background-image: url(/images/recto.png) ;
     background-size: contain;
     height: 400px;
     width: 400px;
@@ -308,7 +308,7 @@ h1 {
 .imgCrea2 {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: url(/images/Verso.png) ;
+    background-image: url(/images/verso.png) ;
     background-size: contain;
     height: 500px;
     width: 500px;
@@ -416,7 +416,7 @@ h1 {
     height: 400px;
     background-size:cover;
     background-position: 50%;
-    background-image: url(/images/ProjectF.jpg);
+    background-image: url(/images/projectf.jpg);
     grid-column: 1;
     grid-row: 2;
     border-radius: 100%;
@@ -439,7 +439,7 @@ h1 {
     height: 400px;
     background-size:cover;
     background-position: 50%;
-    background-image: url(/images/Lidar.png);
+    background-image: url(/images/lidar.png);
     grid-column: 2;
     grid-row: 2;
     border-radius: 100%;
@@ -459,7 +459,7 @@ h1 {
     height: 400px;
     background-size:cover;
     background-position: 50%;
-    background-image: url(/images/Karlson.jpg);
+    background-image: url(/images/karlson.jpg);
     grid-column: 1;
     grid-row: 3;
     border-radius: 100%;
@@ -477,7 +477,7 @@ h1 {
     height: 400px;
     background-size:cover;
     background-position: 50%;
-    background-image: url(/images/Arknights.jpg);
+    background-image: url(/images/arknights.jpg);
     grid-column: 2;
     grid-row: 3;
     border-radius: 100%;
