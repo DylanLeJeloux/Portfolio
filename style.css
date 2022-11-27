@@ -118,7 +118,7 @@ body {
 }
 
 .img1:hover {
-    background-image: url('images/ArchitectureNuit.png');
+    background-image: url('images/architecturenuit.png');
 }
 
 @keyframes Showcase {
@@ -538,7 +538,7 @@ h1 {
 @media screen and (max-width: 900px) {
 
     .img1:hover {
-        background-image: url('images/ArchitectureNuit.png');
+        background-image: url('images/architecturenuit.png');
     }
 
     body {
@@ -664,7 +664,7 @@ h1 {
     }
 
     .img1:hover {
-        background-image: url('images/ArchitectureNuit.png');
+        background-image: url('images/architecturenuit.png');
     }
 
     @keyframes Showcase {
@@ -1074,7 +1074,7 @@ h1 {
 @media screen and (max-width: 500px) {
 
     .img1:hover {
-        background-image: url('images/ArchitectureNuit.png');
+        background-image: url('images/architecturenuit.png');
     }
 
     .part1{
