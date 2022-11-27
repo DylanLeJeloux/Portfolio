@@ -118,7 +118,7 @@ body {
 }
 
 .img1:hover {
-    background-image: url('images/architecturenuit.png');
+    background-image: url('images/ArchitectureNuit.png');
 }
 
 @keyframes Showcase {
@@ -165,8 +165,8 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: 30px;
-    width: fit-content;
     color: rgb(146, 181, 255);
     justify-content: space-around;
 }
@@ -516,4 +516,622 @@ h1 {
 
 .Contacts p:hover, .Contacts a:hover{
     transform: scale(1.1);
+}
+
+.part1 {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1230px) {
+    .imgCrea1{
+        width: 350px;
+        height: 350px;
+    }
+    .imgCrea2{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+        background-image: url('images/sky.jpg');
+        background-repeat: repeat;
+    }
+    
+    .navBar {
+        display: flex;
+        width: 100%;
+        height: 30px;
+        backdrop-filter: blur(30px);
+        border-style:solid;
+        border-color: rgb(74, 75, 104);
+        border-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Head {
+        width: 100%;
+        height: 200px;
+    }
+
+    .intro {
+        display: flex;
+        justify-content:space-evenly;
+        max-width: 100%;
+        border-width: 0px;
+        height: 200px;
+        background-color: rgb(74, 75, 104);
+        align-items: center;
+    }
+
+    .intro img {
+        width: 200px;
+        height: auto;
+        border-style: solid;
+        border-width: 0px;
+        border-radius: 300px;
+        background-color: rgb(255, 255, 255);
+        transition: ease-in-out 0.4s;
+    }
+
+    .pfpinfo {
+        transition: ease-in-out 2s;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+        width: 200px;
+        position: absolute;
+        margin-right: 30%;
+    }
+
+    .link a {
+        display: flex;
+        align-items: center;
+        transition: ease-in-out 0.4s;
+        text-decoration: none;
+        color: azure;
+        width: 45px;
+        opacity: 0%;
+    }
+    
+    .link {
+        display: flex;
+        justify-content: space-around;
+        width: 100px;
+        height: 100px;
+        border-radius: 300px ;
+        background-color: black;
+        text-align: center;
+        filter:blur(10000000);
+        align-items: center;
+        font-size: 10px;
+        
+    }
+    
+    .link img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .link{
+        position: relative;
+      }
+      
+    .link img, .link a{
+        position: absolute;
+    }
+
+    .img1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+        height: 83px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+        border-radius: 10px;
+        background-image: url('images/architecturejour.png');
+        transition: 0.4s ease-in-out;
+    }
+
+    .img2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+        height: 83px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+        border-radius: 10px;
+        background-image: url('images/fantasy.png');
+        animation: 5s Showcase infinite alternate ease-in-out;
+    }
+
+    .img1:hover {
+        background-image: url('images/ArchitectureNuit.png');
+    }
+
+    @keyframes Showcase {
+        0% {
+            background-image: url('images/fantasy.png');
+        }
+    
+        15% {
+            background-image: url('images/fantasy.png');
+        }
+    
+        30% {
+            background-image: url('images/scene.png');
+        }
+    
+        45% {
+            background-image: url('images/scene.png');
+        }
+    
+        60% {
+            background-image: url('images/rendu.png');
+        }
+    
+        75% {
+            background-image: url('images/rendu.png');
+        }
+    
+        90% {
+            background-image: url('images/fantasy.png');
+        }
+    
+        100% {
+            background-image: url('images/fantasy.png');
+        }
+    }
+
+    .link:hover > img {
+    
+        opacity: 20%;
+    }
+
+    .link:hover > a {
+        opacity: 100%;
+    }
+
+    h1 {
+        font-size: 15px;
+        width: 100%;
+        color: rgb(146, 181, 255);
+        justify-content: space-around;
+    }
+
+    .intro p {
+        max-width: 200px;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+    }
+
+    .Name {
+        font-size: 10px;
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        transition: ease-in-out 0.4s;
+    }
+
+    .NavTitle:hover{
+        color: black;
+        transform: scale(1.1);
+    }
+
+    .ImageBackground {
+        width: 100%;
+        height: auto;
+    }
+
+    .Sections {
+        width: 1000px;
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    .NavTitle {
+        display: flex;
+        font-size: 10px;
+        margin-left: 2%;
+        color: rgb(255, 255, 255);
+        margin-top: 4%;
+        transition: ease-in-out 0.4s;
+    }
+
+    .SectionTitle1{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        color: white;
+        backdrop-filter: blur(5px);
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        animation: 2s ease-in-out Chonk infinite alternate;
+    }
+
+    .SectionTitle2{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        color: white;
+        backdrop-filter: blur(5px);
+        align-items: center;
+        height: 200px;
+        width: 100%;
+        opacity: 90%;
+        animation: 2s ease-in-out RGB infinite alternate;
+    }
+
+    .SectionTitle3{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        color: white;
+        backdrop-filter: blur(5px);
+        align-items: center;
+        height: 200px;
+        width: 100%;
+        font-family: 'Common Pixel', sans-serif;
+        animation: 1s ease-in-out pixel infinite alternate;
+    }
+
+    @keyframes pixel {
+        0%{
+            font-family: 'Common Pixel', sans-serif;
+        }
+        50%{
+            font-family: 'SpaceType', sans-serif;
+        }
+        100%{
+            font-family: 'Wonder Boy In Monster World', sans-serif;
+        }
+    }
+    
+    .Projet1 {
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        background-color: rgb(74, 75, 104);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Projet1 h1 {
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Projet1 p {
+        width: 150px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .Projet2 {
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        background-color: rgb(74, 75, 104);
+    }
+
+    .imgCrea1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-image: url('images/recto.png') ;
+        background-size: contain;
+        height: 200px;
+        width: 200px;
+        rotate: 5deg;
+        border-style: solid;
+        transition: 0.4s cubic-bezier(0, 0.98, 0.58, 1);
+    }
+
+    .container p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .imgCrea2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-image: url('images/verso.png') ;
+        background-size: contain;
+        height: 250px;
+        width: 250px;
+        rotate: -2deg;
+        border-style: solid;
+        transition: 0.4s cubic-bezier(0, 0.98, 0.58, 1);
+    }
+
+    .imgCrea1:hover {
+        transform: scale(1.2) rotate(-5deg);
+        border-width: thick;
+        border-color: rgb(120, 145, 255);
+    }
+
+    .navBar img{
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+        border-radius: 100%;
+        animation: 5s spinin infinite;
+        animation-timing-function: cubic-bezier(0.5, 0.5,0.5, 0.5);
+    }
+
+    @keyframes spinin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .imgCrea2:hover {
+        transform: scale(1.1) rotate(2deg);
+        border-width: thick;
+        border-color: rgb(226, 205, 136);
+    }
+
+    @keyframes Chonk {
+        0%{
+            font-size: 25px;
+            color: white;
+        }
+        100% {
+            color: black;
+            font-size: 30px;
+        }
+    }
+
+    @keyframes RGB {
+        0% {
+            color: white;
+        }
+        20% {
+            color: aqua;
+        }
+        40% {
+            color: chartreuse;
+        }
+        60% {
+            color: yellow;
+        }
+        80% {
+            color: orange;
+        }
+        100% {
+            color: red;
+        }
+    }
+
+    .Projet3 {
+        height: fit-content;
+        width: 100%;
+        background-color: rgb(74, 75, 104);
+    }
+
+    .Grille {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .Title {
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+    
+    .Title h1 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .grid1 {
+        margin-left: 15vw;
+        margin-top: 50px;
+        display: flex;
+        align-items:center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        width: 400px;
+        height: 400px;
+        background-size:cover;
+        background-position: 50%;
+        background-image: url('images/projectf.jpg');
+        grid-column: 1;
+        grid-row: 2;
+        border-radius: 100%;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .grid1:hover,.grid2:hover,.grid3:hover,.grid4:hover {
+        border-radius: 10%;
+    }
+    
+    .grid2 {
+        margin-top: 50px;
+        margin-right: 15vw;
+        display: flex;
+        align-items:center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        width: 400px;
+        height: 400px;
+        background-size:cover;
+        background-position: 50%;
+        background-image: url('images/lidar.png');
+        grid-column: 2;
+        grid-row: 2;
+        border-radius: 100%;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .grid3 {
+        margin-left: 15vw;
+        margin-top: 100px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items:center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        width: 400px;
+        height: 400px;
+        background-size:cover;
+        background-position: 50%;
+        background-image: url('images/karlson.jpg');
+        grid-column: 1;
+        grid-row: 3;
+        border-radius: 100%;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .grid4 {
+        margin-top: 100px;
+        display: flex;
+        align-items:center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        width: 400px;
+        height: 400px;
+        background-size:cover;
+        background-position: 50%;
+        background-image: url('images/arknights.jpg');
+        grid-column: 2;
+        grid-row: 3;
+        border-radius: 100%;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .Contacts{
+        display: grid;
+        grid-column: 3;
+        backdrop-filter: blur(5px);
+        align-items: center;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .Contacts h1{
+        margin:auto;
+        font-size: 60px;
+        color: white;
+    }
+    
+    .Contacts p{
+        margin: auto;
+        font-size: 30px;
+        color: white;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .Contacts a{
+        text-decoration: none;
+        margin: auto;
+        font-size: 30px;
+        color: white;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .Contacts p:hover, .Contacts a:hover{
+        transform: scale(1.1);
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .imgCrea1{
+        width: 110px;
+        height: 110px;
+    }
+
+    .grid1 {
+        width: 100px;
+        font-size: 7px;
+        height: 100px;
+    }
+
+    .grid2 {
+        width: 100px;
+        font-size: 7px;
+        height: 100px;
+    }
+
+    .grid3 {
+        width: 100px;
+        font-size: 7px;
+        height: 100px;
+    }
+
+    .grid4 {
+        width: 100px;
+        font-size: 6px;
+        height: 100px;
+    }
+
+    .Title h1 {
+        font-size: 15px;
+    }
+
+    .Title {
+        font-size: 10px;
+    }
+    
+    .imgCrea2{
+        width: 130px;
+        height: 130px;
+    }
+
+    .SectionTitle2{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        opacity: 90%;
+        animation: 2s ease-in-out RGB infinite alternate;
+    }
+
+    .SectionTitle3{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        opacity: 90%;
+    }
 }
