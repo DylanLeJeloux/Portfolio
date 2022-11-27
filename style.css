@@ -118,7 +118,7 @@ body {
 }
 
 .img1:hover {
-    background-image: url('images/architecturenuit.png');
+    background-image: url('images/ArchitectureNuit.png');
 }
 
 @keyframes Showcase {
@@ -536,6 +536,10 @@ h1 {
 }
 
 @media screen and (max-width: 900px) {
+
+    .img1:hover {
+        background-image: url('images/ArchitectureNuit.png');
+    }
 
     body {
         background-image: url('images/sky.jpg');
@@ -1068,6 +1072,10 @@ h1 {
 }
 
 @media screen and (max-width: 500px) {
+
+    .img1:hover {
+        background-image: url('images/ArchitectureNuit.png');
+    }
 
     .part1{
         margin-left: auto;
